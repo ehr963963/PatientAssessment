@@ -5,6 +5,11 @@ Python library for patient assessment
 Given a piece of text that the patient enters as the reason for the appointment, the concept extraction code identifies important concepts in the text. These concepts could be symptoms (positive and negative), drugs used, pre-existing conditions etc.
 
 ***Installation***
+***Prerequisites***: Install python and java 
+```
+sudo apt install default-jre
+```
+
 Download and install  `MetaMap` in the `public_mm` directory. Download is available at https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/run-locally/MainDownload.html and instructions for installation are at https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/documentation/Installation.html
 
 Download and setup `pymetamap`, a Python wrapper around MetaMap. Details here: https://github.com/AnthonyMRios/pymetamap
