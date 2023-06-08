@@ -25,28 +25,9 @@ Run the concept extraction tool using
 python extract_concept_test.py  <text_file>
 ```
 
-Example usage and output:
+Example usage:
 ```
 python extract_concept_test.py sample.txt
 
-Symptoms:
-
-I have been feeling really tired lately.
-Sometimes I find myself crying in my car for no reason.
-There is nothing really going on I’m my life right now - and I and upset for no reason.
-I just have no energy.
-
-Concepts:
-
-Crying (Crying->C0010399->[inbe])
-
-Finding (Finding->C0243095->[fndg])
-
-Tired (Tired->C0557875->[sosy])
-
-Vitality (Vitality->C0424589->[fndg])
-
-NI+ (NI+->C3869926->[fndg])
-
-NI- (NI-->C3869927->[fndg])
 ```
+Sample results are in the file `results.txt` 
