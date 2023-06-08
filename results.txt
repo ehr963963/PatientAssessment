@@ -1,0 +1,102 @@
+Symptoms:
+
+I have an itchy rash on my outer thigh. It is red and dry. I have had a few flare ups when I was younger, but it is seems to be extra itchy this time.
+Conditions from Metmap:
+
+Pruritus (Pruritus->C0033774->[fndg])
+
+Redness (Redness->C0332575->[fndg])
+
+Flare-up (Flare-up->C3830105->[fndg])
+
+Prurigo (Prurigo->C0033771->[dsyn])
+
+thigh rash (thigh rash->C0241377->[fndg])
+
+Conditions from OPENAI:
+- Eczema :60%
+- Eczema ,Eczema (Eczema->C0013595->[dsyn])
+
+- Eczema ,Eczema, CTCAE (Eczema, CTCAE->C4553957->[fndg])
+
+- Contact dermatitis :20%
+- Contact dermatitis ,Contact Dermatitis (Contact Dermatitis->C0011616->[dsyn])
+
+- Psoriasis :10%
+- Psoriasis ,Psoriasis (Psoriasis->C0033860->[dsyn])
+
+- Fungal infection :5%
+- Fungal infection ,Mycoses (Mycoses->C0026946->[dsyn])
+
+- Allergic reaction :5%
+- Allergic reaction ,Allergic Reaction, CTCAE (Allergic Reaction, CTCAE->C4552863->[fndg])
+
+
+Symptoms:
+
+I have been feeling really tired lately.
+Sometimes I find myself crying in my car for no reason.
+There is nothing really going on I’m my life right now - and I and upset for no reason.
+I just have no energy.
+Conditions from Metmap:
+
+Fatigue (Fatigue->C0015672->[sosy])
+
+Feeling tired (Feeling tired->C0849970->[fndg])
+
+Finding (Finding->C0243095->[fndg])
+
+Crying (Crying->C0010399->[inbe])
+
+Vitality (Vitality->C0424589->[fndg])
+
+Conditions from OPENAI:
+- Depression :70%
+- Depression ,Depressed mood (Depressed mood->C0344315->[mobd])
+
+- Depression ,Depressive disorder (Depressive disorder->C0011581->[mobd])
+
+- Depression ,Mental Depression (Mental Depression->C0011570->[mobd])
+
+- Chronic fatigue syndrome :20%
+- Chronic fatigue syndrome ,Chronic Fatigue Syndrome (Chronic Fatigue Syndrome->C0015674->[dsyn])
+
+- Thyroid disorder :10%
+- Thyroid disorder ,Thyroid Diseases (Thyroid Diseases->C0040128->[dsyn])
+
+Combining the results from the different sources
+
+Symptoms:
+
+I have trouble sleeping. I need a few drinks to be able to sleep. I feel tired all the time.
+Conditions from Metmap:
+
+Able (Able (finding)->C1299581->[fndg])
+
+Acute alcoholic intoxication (Acute alcoholic intoxication->C0394996->[mobd])
+
+Drink (Drink (dietary substance)->C0452428->[food])
+
+Fatigue (Fatigue->C0015672->[sosy])
+
+Feeling tired (Feeling tired->C0849970->[fndg])
+
+Sleep disturbances (Sleep disturbances->C0037317->[sosy])
+
+Conditions from OPENAI:
+- Alcohol use disorder :80%
+- Alcohol use disorder ,Alcohol Use Disorder (Alcohol Use Disorder->C0001956->[mobd])
+
+- Insomnia :15%
+- Insomnia ,Insomnia, CTCAE 3.0 (Insomnia, CTCAE 3.0->C1963237->[fndg])
+
+- Insomnia ,Insomnia, CTCAE 5.0 (Insomnia, CTCAE 5.0->C4554626->[fndg])
+
+- Insomnia ,Sleeplessness (Sleeplessness->C0917801->[sosy])
+
+- Chronic fatigue syndrome :5%
+- Chronic fatigue syndrome ,Chronic Fatigue Syndrome (Chronic Fatigue Syndrome->C0015674->[dsyn])
+
+Combining the results from the different sources
+
+
