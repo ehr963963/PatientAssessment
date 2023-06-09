@@ -3,7 +3,7 @@ from utils import *
 import openai
 import argparse
 
-#openai.api_key = "open-api-key"
+openai.api_key = "open-api-key"
 
 # Read the file containing the text
 parser = argparse.ArgumentParser()
